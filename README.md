@@ -7,6 +7,7 @@ I want to create applications that many users will use😎
 ### Portfolio
 Some of my work is here.<br>
 [Youtube](https://www.youtube.com/c/Nekodigi)<br>
+[Google Play](https://play.google.com/store/apps/dev?id=8989861170574890555)<br>
 [Blog(JP)](https://nekodigi.hatenablog.com/archive)
 ### Github status
 ![Nekodigi's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nekodigi&show_icons=true&theme=radical)
