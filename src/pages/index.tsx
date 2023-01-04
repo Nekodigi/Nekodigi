@@ -1,12 +1,10 @@
-import { Box } from "@mui/material";
+import "./i18n";
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../../styles/Home.module.css";
-import { Contact } from "../components/organisms/top/contact";
-import { Intro } from "../components/organisms/top/intro";
-import { Projects } from "../components/organisms/top/projects";
-import { Skill } from "../components/organisms/top/skill";
-import { SocialMeadia } from "../components/organisms/top/socialMedia";
+import { Contact } from "../components/templates/top/contact";
+import { Intro } from "../components/templates/top/intro";
+import { Projects } from "../components/templates/top/projects";
+import { Skill } from "../components/templates/top/skill";
+import { SocialMeadia } from "../components/templates/top/socialMedia";
 
 export default function Home() {
   return (

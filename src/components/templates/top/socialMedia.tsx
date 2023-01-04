@@ -2,7 +2,7 @@ import { Box, Container, useTheme } from "@mui/material";
 import { FlexGrid } from "../../molecules/flexGrid";
 import { InPageLink } from "../../molecules/inPageLink";
 import { SectionTitle } from "../../molecules/sectionTitle";
-import { GradiationCard } from "../gradiationCard";
+import { GradiationCard } from "../../organisms/gradiationCard";
 
 export const SocialMeadia = () => {
   const theme = useTheme();

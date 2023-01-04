@@ -1,5 +1,6 @@
 import { useTheme } from "@mui/material";
 import { Box, Container } from "@mui/material";
+import { useTranslation } from "next-i18next";
 import { Circle } from "../../atoms/circle";
 import { Waves } from "../../atoms/waves";
 
@@ -8,6 +9,8 @@ import { ShapesBackground } from "../../molecules/shapesBackground";
 
 export const Intro = () => {
   const theme = useTheme();
+
+  const { t } = useTranslation("top");
 
   const waveWidth = "100%";
   const waveHeight = 50;
@@ -24,10 +27,9 @@ export const Intro = () => {
             color: theme.palette.com.white,
             textShadow: "0px 0px 30px rgba(255, 255, 255, 0.5);",
           }}
-          title="Hi! I'm Nekodigi."
-          // subTitle="Programmer / Designer / Student"
-          body="アートやWebアプリケーションなどの制作を8年間行っています。最近は特にWebアプリ開発に力を入れています。たくさんの人に使ってもらえるアプリを作るのが夢です。
-  皆さんよろしくお願いします！"
+          title={t("intro.title") as string} //"Programmer / Designer / Student"
+          // subTitle={t("Common.title") as string}
+          body={t("intro.body") as string}
         />
       </Container>
       {/* <ShapesBackground width={1000} height={200} /> */}

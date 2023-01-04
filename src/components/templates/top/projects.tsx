@@ -5,7 +5,7 @@ import { Box, Container, useTheme } from "@mui/material";
 import { FlexGrid } from "../../molecules/flexGrid";
 import { InPageLink } from "../../molecules/inPageLink";
 import { SectionTitle } from "../../molecules/sectionTitle";
-import { ProjectCard } from "../projectCard";
+import { ProjectCard } from "../../organisms/projectCard";
 
 export const Projects = () => {
   const theme = useTheme();
