@@ -5,13 +5,20 @@ import languageDetector from "./languageDetector";
 export const useRedirect = (to?: string) => {
   const router = useRouter();
   to = to || router.asPath;
+  to = to.replace("/Nekodigi", "");
+  console.log(to);
 
   // language detection
   useEffect(() => {
     const detectedLng = languageDetector.detect();
 
+    console.log(to);
+
     //SHOULD CHANGE THIS  /Nekodigi/
-    if (to!.startsWith("/Nekodigi/" + detectedLng) && router.route === "/404") {
+    if (
+      to!.startsWith("/Nekodigi/" + detectedLng) &&
+      router.route === "/Nekodigi/404"
+    ) {
       // prevent endless loop
       router.replace("/Nekodigi/" + detectedLng + router.route);
       return;
