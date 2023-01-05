@@ -5,7 +5,7 @@ import { useTheme } from "@mui/material/styles";
 import { SxProps } from "@mui/material/styles";
 import { useContext, useEffect } from "react";
 import { ThemeContext } from "../../contexts/theme";
-import { themeLight } from "../../themes/light";
+import { themeLight } from "../../utils/themes/light";
 import { fontFamilies, fontSizes } from "../styles/fonts";
 
 type SectionTitleProps = {

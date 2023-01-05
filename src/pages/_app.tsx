@@ -6,10 +6,7 @@ import { ThemeContext } from "../contexts/theme";
 import { useEffect, useState } from "react";
 import { CssBaseline, Theme } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
-import { themeLight } from "../themes/light";
-import { themeCommon } from "../themes/theme";
-import { Header } from "../components/organisms/header";
-import { themeDark } from "../themes/dark";
+import { themeLight } from "../utils/themes/light";
 import { appWithTranslation } from "next-i18next";
 
 function App({ Component, pageProps }: AppProps) {

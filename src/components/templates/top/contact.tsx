@@ -1,15 +1,15 @@
 import { Box, Container } from "@mui/material";
+import { useTranslation } from "react-i18next";
 import { InPageLink } from "../../molecules/inPageLink";
 import { SectionTitle } from "../../molecules/sectionTitle";
 
 export const Contact = () => {
+  const { t } = useTranslation("top");
+
   return (
     <InPageLink id="Contact">
-      <Container sx={{ pt: 2, mb: 20 }}>
-        <SectionTitle
-          title="Contact"
-          body="Youtubeのコメントで連絡していただくと早く回答が得られます。Twitter、Emailを通しての連絡も可能です。"
-        />
+      <Container sx={{ pt: 2, mb: 40 }}>
+        <SectionTitle title={t("contact.title")!} body={t("contact.body")!} />
       </Container>
     </InPageLink>
   );

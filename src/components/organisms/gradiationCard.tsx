@@ -5,13 +5,13 @@ import { useTheme } from "@mui/material/styles";
 import { FlexItem } from "../molecules/flexItem";
 import { fontFamilies, fontSizes } from "../styles/fonts";
 
-type GradiationCardProps = {
+export type GradationCardProps = {
   url: string;
   title: string;
   body: string;
   color: string;
 };
-export const GradiationCard = (props: GradiationCardProps) => {
+export const GradationCard = (props: GradationCardProps) => {
   const { url, title, body, color } = props;
   const theme = useTheme();
   return (

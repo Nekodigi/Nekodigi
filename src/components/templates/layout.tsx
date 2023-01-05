@@ -7,9 +7,9 @@ export const Layout = (props: { children: React.ReactNode }) => {
   const { children } = props;
   const theme = useTheme();
   return (
-    <Box sx={{ background: theme.palette.local.white }}>
+    <Box sx={{ background: theme.palette.local.white, whiteSpace: "pre-wrap" }}>
       <Header />
-      <main>{children}</main>
+      <main style={{ minHeight: 1000 }}>{children}</main>
       <Footer />
     </Box>
   );
