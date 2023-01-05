@@ -3,17 +3,21 @@ import { useRouter } from "next/router";
 import languageDetector from "./languageDetector";
 import config from "../../../package.json";
 
+const onTheRoot = true; //if use custom domain and site is on the root. no need to for root path
+
 export const useRedirect = (to?: string) => {
   const router = useRouter();
   to = to || router.asPath;
   let rootPath = "";
 
   if (process.env.NODE_ENV === "production") {
-    if (!config.homepage.includes(".github.io")) {
-      console.error("homepage is not valid github.io link");
+    if (!onTheRoot) {
+      if (!config.homepage.includes(".github.io")) {
+        console.error("homepage is not valid github.io link");
+      }
+      rootPath = config.homepage.split(".github.io")[1];
+      to = to.replace(rootPath, "");
     }
-    rootPath = config.homepage.split(".github.io")[1];
-    to = to.replace(rootPath, "");
   }
 
   // language detection      //en-US detected but always ja!!!

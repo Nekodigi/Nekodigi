@@ -8,7 +8,7 @@ import {
   GradationCardProps,
 } from "../../organisms/gradiationCard";
 
-export const SocialMeadia = () => {
+export const SocialMedia = () => {
   const theme = useTheme();
   const { t } = useTranslation("top");
 
