@@ -1,16 +1,18 @@
 import { Box, Container, useTheme } from "@mui/material";
+import { useTranslation } from "react-i18next";
 import { IconBadge } from "../../molecules/IconBadge";
 import { SectionTitle } from "../../molecules/sectionTitle";
 
 export const Skill = () => {
   const theme = useTheme();
+  const { t } = useTranslation("top");
+
   return (
     <Container sx={{ py: 2 }}>
       <SectionTitle
-        title="Skill"
+        title={t("skill.title")}
         // subTitle="Fullstack / IoT / Art"
-        body="こちらは開発で使用している技術一覧です。
-ご自身の開発や仕事依頼の参考にお使いください。"
+        body={t("skill.body")}
       />
       <Box
         display="flex"
