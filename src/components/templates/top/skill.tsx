@@ -12,7 +12,7 @@ export const Skill = () => {
       <SectionTitle
         title={t("skill.title")}
         // subTitle="Fullstack / IoT / Art"
-        body={t("skill.body")}
+        body={t("skill.body")!}
       />
       <Box
         display="flex"
