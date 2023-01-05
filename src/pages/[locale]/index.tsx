@@ -1,4 +1,3 @@
-import "../../utils/themes/i18n";
 import Head from "next/head";
 import { Contact } from "../../components/templates/top/contact";
 import { Intro } from "../../components/templates/top/intro";

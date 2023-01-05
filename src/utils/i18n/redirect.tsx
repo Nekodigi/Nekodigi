@@ -1,31 +1,41 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import languageDetector from "./languageDetector";
+import config from "../../../package.json";
 
 export const useRedirect = (to?: string) => {
   const router = useRouter();
   to = to || router.asPath;
-  to = to.replace("/Nekodigi", "");
-  console.log(to);
+  let rootPath = "";
 
-  // language detection
+  if (process.env.NODE_ENV === "production") {
+    if (!config.homepage.includes(".github.io")) {
+      console.error("homepage is not valid github.io link");
+    }
+    rootPath = config.homepage.split(".github.io")[1];
+    to = to.replace(rootPath, "");
+  }
+
+  // language detection      //en-US detected but always ja!!!
   useEffect(() => {
     const detectedLng = languageDetector.detect();
 
-    console.log(to);
+    if (process.env.NODE_ENV !== "production") {
+      console.log(detectedLng, to);
+    }
 
     //SHOULD CHANGE THIS  /Nekodigi/
     if (
-      to!.startsWith("/Nekodigi/" + detectedLng) &&
-      router.route === "/Nekodigi/404"
+      to!.startsWith("/" + detectedLng) &&
+      router.route === rootPath + "/404"
     ) {
       // prevent endless loop
-      router.replace("/Nekodigi/" + detectedLng + router.route);
+      router.replace(rootPath + "/" + detectedLng + router.route);
       return;
     }
 
     languageDetector.cache!(detectedLng!);
-    router.replace("/Nekodigi/" + detectedLng + to);
+    router.replace(rootPath + "/" + detectedLng + to);
   });
 
   return <></>;
