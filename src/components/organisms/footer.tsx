@@ -58,7 +58,7 @@ export const Footer = () => {
                   color={theme.palette.local.gray}
                   fontWeight={400}
                 >
-                  Privacy
+                  Privacy Policy
                 </Typography>
               </Link>
             </Box>
