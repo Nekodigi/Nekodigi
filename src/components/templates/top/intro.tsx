@@ -2,9 +2,9 @@ import { useTheme } from "@mui/material";
 import { Box, Container } from "@mui/material";
 
 import { useTranslation } from "next-i18next";
-import { Waves } from "../../atoms/waves";
+import { Waves } from "../../atoms/Waves";
 
-import { SectionTitle } from "../../molecules/sectionTitle";
+import { SectionTitle } from "../../molecules/SectionTitle";
 
 export const Intro = () => {
   const theme = useTheme();
@@ -26,7 +26,7 @@ export const Intro = () => {
             color: theme.palette.com.white,
             textShadow: "0px 0px 30px rgba(255, 255, 255, 0.5);",
           }}
-          title={t("intro.title")} //"Programmer / Designer / Student"
+          title={t("intro.title")!} //"Programmer / Designer / Student"
           // subTitle={t("Common.title") as string}
           body={t("intro.body")!}
         />

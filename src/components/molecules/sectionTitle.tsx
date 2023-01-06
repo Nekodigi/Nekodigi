@@ -8,14 +8,15 @@ import { ThemeContext } from "../../contexts/theme";
 import { themeLight } from "../../utils/themes/light";
 import { fontFamilies, fontSizes } from "../styles/fonts";
 
-type SectionTitleProps = {
-  title: string;
+export type SectionTitleProps = {
+  title?: string;
   subTitle?: string;
   body?: string;
   sx?: SxProps;
+  sxBox?: SxProps;
 };
 export const SectionTitle = (props: SectionTitleProps) => {
-  const { title, subTitle, body, sx } = props;
+  const { title, subTitle, body, sx, sxBox } = props;
 
   const { theme } = useContext(ThemeContext); //not applied measure
 
@@ -25,17 +26,20 @@ export const SectionTitle = (props: SectionTitleProps) => {
       flexDirection="column"
       gap={1}
       m={2}
-      sx={{
+      style={{
         color: theme.palette.local.black,
       }}
+      sx={sxBox}
     >
-      <Typography
-        css={[fontFamilies.Jp, fontSizes.px32]}
-        style={{ fontWeight: 700 }}
-        sx={sx}
-      >
-        {title}
-      </Typography>
+      {title === undefined ? null : (
+        <Typography
+          css={[fontFamilies.Jp, fontSizes.px32]}
+          style={{ fontWeight: 700 }}
+          sx={sx}
+        >
+          {title}
+        </Typography>
+      )}
       {subTitle === undefined ? null : (
         <Typography
           css={[fontFamilies.Jp, fontSizes.px24]}

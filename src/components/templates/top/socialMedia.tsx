@@ -1,12 +1,12 @@
 import { Box, Container, useTheme } from "@mui/material";
 import { useTranslation } from "react-i18next";
-import { FlexGrid } from "../../molecules/flexGrid";
-import { InPageLink } from "../../molecules/inPageLink";
-import { SectionTitle } from "../../molecules/sectionTitle";
+import { FlexGrid } from "../../molecules/FlexGrid";
+import { InPageLink } from "../../molecules/InPageLink";
+import { SectionTitle } from "../../molecules/SectionTitle";
 import {
   GradationCard,
   GradationCardProps,
-} from "../../organisms/gradiationCard";
+} from "../../organisms/GradiationCard";
 
 export const SocialMedia = () => {
   const theme = useTheme();
@@ -31,7 +31,7 @@ export const SocialMedia = () => {
             color: theme.palette.local.black,
             textShadow: "0px 0px 30px rgba(255, 255, 255, 0.5);",
           }}
-          title={t("socialMedia.title")}
+          title={t("socialMedia.title")!}
           // subTitle="App / Art / Game"
           body={t("socialMedia.body")!}
         />

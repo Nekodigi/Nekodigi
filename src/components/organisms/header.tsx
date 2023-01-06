@@ -27,9 +27,9 @@ export const Header = () => {
             <Nekodigi />
             <Box flexGrow={1}></Box>
             <Box sx={{ display: { xs: "none", sm: "flex" } }}>
-              <TextButton href="#MyProjects" label="My Projects" />
-              <TextButton href="#SocialMedia" label="Social Media" />
-              <TextButton href="#Contact" label="Contact" />
+              <TextButton href="/#MyProjects" label="My Projects" />
+              <TextButton href="/#SocialMedia" label="Social Media" />
+              <TextButton href="/#Contact" label="Contact" />
             </Box>
           </Toolbar>
         </Container>
@@ -45,6 +45,8 @@ import { css, jsx } from "@emotion/react";
 import TextField from "@mui/material/TextField";
 import { fontFamilies, fontSizes } from "../styles/fonts";
 import CssBaseline from "@mui/material/CssBaseline/CssBaseline";
+import LanguageSwitchLink from "../atoms/LanguageSwitchLink";
+import Link from "../atoms/Link";
 
 type TextButtonProps = {
   href: string;
@@ -56,17 +58,18 @@ export const TextButton = (props: TextButtonProps) => {
   const { href, label } = props;
 
   return (
-    <Button
-      href={href}
-      css={[fontFamilies.Jp, fontSizes.px16]} //, fontFamily: "Noto Sans JP"
-      sx={{
-        color: theme.palette.local.black,
-        textTransform: "none",
-        fontWeight: 400,
-        fontSize: 16,
-      }}
-    >
-      {label}
-    </Button>
+    <Link href={href} underline={"none"}>
+      <Button
+        css={[fontFamilies.Jp, fontSizes.px16]} //, fontFamily: "Noto Sans JP"
+        sx={{
+          color: theme.palette.local.black,
+          textTransform: "none",
+          fontWeight: 400,
+          fontSize: 16,
+        }}
+      >
+        {label}
+      </Button>
+    </Link>
   );
 };

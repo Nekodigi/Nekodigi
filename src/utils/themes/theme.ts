@@ -14,23 +14,17 @@ declare module "@mui/material/styles" {
     local: {
       black: string;
       white: string;
+      gray: string;
+      whiteDark: string;
     };
   }
 
   interface Palette extends PaletteOptions {}
 }
 
-export const themeCommon = createTheme({
-  palette: {
-    com: {
-      black: "#000000",
-      blackLight: "#242424",
-      white: "#FFFFFF",
-      dawn: "linear-gradient(160.54deg, rgba(204, 32, 142, 0.4) 9.46%, rgba(103, 19, 210, 0.4) 91.43%), #434343;",
-    },
-    local: {
-      black: "#000000",
-      white: "#FFFFFF",
-    },
-  },
-});
+export const themeCommon = {
+  black: "#000000",
+  blackLight: "#242424",
+  white: "#FFFFFF",
+  dawn: "linear-gradient(160.54deg, rgba(204, 32, 142, 0.4) 9.46%, rgba(103, 19, 210, 0.4) 91.43%), #434343;",
+};

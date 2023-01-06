@@ -1,11 +1,15 @@
 import { createTheme } from "@mui/material/styles";
 import { themeCommon } from "./theme";
 
-export const themeLight = createTheme(themeCommon, {
+export const themeLight = createTheme({
   palette: {
     mode: "light",
-    text: {
-      primary: "#000000",
+    com: themeCommon,
+    local: {
+      black: "#000000",
+      white: "#FFFFFF",
+      gray: "#8C8C8C",
+      whiteDark: "#D1D1D1",
     },
   },
 });

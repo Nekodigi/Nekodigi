@@ -1,13 +1,14 @@
 /** @jsxImportSource @emotion/react */
 
 import type { AppProps } from "next/app";
-import { Layout } from "../components/templates/layout";
+import { Layout } from "../components/templates/Layout";
 import { ThemeContext } from "../contexts/theme";
 import { useEffect, useState } from "react";
 import { CssBaseline, Theme } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import { themeLight } from "../utils/themes/light";
 import { appWithTranslation } from "next-i18next";
+import { themeDark } from "../utils/themes/dark";
 
 function App({ Component, pageProps }: AppProps) {
   const [theme, setTheme] = useState<Theme>(themeLight);

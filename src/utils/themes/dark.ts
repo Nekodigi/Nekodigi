@@ -1,15 +1,19 @@
 import { createTheme } from "@mui/material/styles";
 import { themeCommon } from "./theme";
 
-export const themeDark = createTheme(themeCommon, {
+//themeCommon,
+export const themeDark = createTheme({
   palette: {
     mode: "dark",
+    com: themeCommon,
     local: {
       white: "#252525",
-      black: "#FFFFFF",
+      black: "#E9E9E9",
+      gray: "#BCBCBC",
+      whiteDark: "#6F6F6F",
     },
     text: {
-      primary: "#000000",
+      primary: "#E9E9E9",
     },
   },
 });

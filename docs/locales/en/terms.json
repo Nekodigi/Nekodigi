@@ -1,0 +1,45 @@
+{
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "body": "Nekodigi has established the following privacy policy to ensure that our customers can use our services with confidence.",
+    "terms": [
+      {
+        "title": "Use of personal information",
+        "body": "Nekodigi provides a variety of services, hereinafter referred to as \"the services\". The services may ask you to enter personal information such as your name and e-mail address when you contact us, create an account, or post content.\nThe personal information obtained will be used to identify your working data and to contact you by e-mail with answers to your inquiries and necessary information, and we will contact you in advance if we intend to use the information for any other purpose than these."
+      },
+      {
+        "title": "About Advertisements",
+        "body": "The services uses third-party website advertising services (Google AdSense) and smartphone application advertising services (Google AdMob, Unity Ads). These services use cookies to display advertisements for products and services that match the interests of users.\nFor more information about the personal information handled by advertising service providers and how to disable ad delivery, please visit their Web sites.",
+        "urls": [
+          {
+            "alt": "Google ",
+            "url": "https://policies.google.com/technologies/ads"
+          },
+          { "alt": "Unity", "url": "https://unity.com/legal/privacy-policy" }
+        ]
+      },
+      {
+        "title": "About Access Analysis Tools",
+        "body": "The services uses Google Analytics, which uses cookies to collect traffic data. Traffic data is collected anonymously and does not identify any individual."
+      },
+      {
+        "title": "Correction of Personal Information",
+        "body": "If you wish to correct or delete your personal information, please contact us at the following address. We will respond to your request after confirming your identity.",
+        "urls": [
+          {
+            "alt": "Personal Information Correction Form",
+            "url": "https://forms.gle/h4R2Vwv8edFfjzXSA"
+          },
+          {
+            "alt": "Contact Form",
+            "url": "https://forms.gle/e6bvEMAkwpLnYuaR9"
+          }
+        ]
+      },
+      {
+        "title": "Privacy Policy Changes",
+        "body": "This Privacy Policy is subject to change without notice due to changes in laws, regulations, and systems. Please refer to the latest Privacy Policy."
+      }
+    ]
+  }
+}

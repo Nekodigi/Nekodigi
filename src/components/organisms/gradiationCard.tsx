@@ -2,7 +2,7 @@
 
 import { Box, Typography } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
-import { FlexItem } from "../molecules/flexItem";
+import { FlexItem } from "../molecules/FlexItem";
 import { fontFamilies, fontSizes } from "../styles/fonts";
 
 export type GradationCardProps = {

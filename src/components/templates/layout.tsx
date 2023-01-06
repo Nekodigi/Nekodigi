@@ -1,7 +1,7 @@
 import { Box, useTheme } from "@mui/material";
 import React from "react";
-import { Footer } from "../organisms/footer";
-import { Header } from "../organisms/header";
+import { Footer } from "../organisms/Footer";
+import { Header } from "../organisms/Header";
 
 export const Layout = (props: { children: React.ReactNode }) => {
   const { children } = props;
