@@ -4,8 +4,8 @@ import { Box, Container, Typography } from "@mui/material";
 import Link from "@mui/material/Link";
 import { fontSize } from "@mui/system";
 import { useTranslation } from "react-i18next";
-import { InPageLink } from "../../molecules/InPageLink";
-import { SectionTitle, SectionTitleProps } from "../../molecules/SectionTitle";
+import { InPageLink } from "../../molecules/inPageLink";
+import { SectionTitle, SectionTitleProps } from "../../molecules/sectionTitle";
 import { fontFamilies, fontSizes } from "../../styles/fonts";
 
 export const Privacy = () => {

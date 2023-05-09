@@ -1,9 +1,9 @@
 import Head from "next/head";
-import { Contact } from "../../components/templates/top/Contact";
-import { Intro } from "../../components/templates/top/Intro";
-import { Projects } from "../../components/templates/top/Projects";
-import { Skill } from "../../components/templates/top/Skill";
-import { SocialMedia } from "../../components/templates/top/SocialMedia";
+import { Contact } from "../../components/templates/top/contact";
+import { Intro } from "../../components/templates/top/intro";
+import { Projects } from "../../components/templates/top/projects";
+import { Skill } from "../../components/templates/top/skill";
+import { SocialMedia } from "../../components/templates/top/socialMedia";
 import { getStaticPaths, makeStaticProps } from "../../utils/i18n/getStatic";
 
 export default function Home() {

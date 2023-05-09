@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { Privacy } from "../../../components/templates/terms/Privacy";
-import { Contact } from "../../../components/templates/top/Contact";
 import { makeStaticProps, getStaticPaths } from "../../../utils/i18n/getStatic";
 
 export default function Home() {

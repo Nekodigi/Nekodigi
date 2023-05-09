@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 
 import type { AppProps } from "next/app";
-import { Layout } from "../components/templates/Layout";
+import { Layout } from "../components/templates/layout";
 import { ThemeContext } from "../contexts/theme";
 import { useEffect, useState } from "react";
 import { CssBaseline, Theme } from "@mui/material";

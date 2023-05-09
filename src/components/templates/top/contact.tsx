@@ -1,7 +1,7 @@
 import { Box, Container } from "@mui/material";
 import { useTranslation } from "react-i18next";
-import { InPageLink } from "../../molecules/InPageLink";
-import { SectionTitle } from "../../molecules/SectionTitle";
+import { InPageLink } from "../../molecules/inPageLink";
+import { SectionTitle } from "../../molecules/sectionTitle";
 
 export const Contact = () => {
   const { t } = useTranslation("top");

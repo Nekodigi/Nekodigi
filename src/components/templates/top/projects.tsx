@@ -3,10 +3,10 @@ import { css, keyframes } from "@emotion/react";
 
 import { Box, Container, useTheme } from "@mui/material";
 import { useTranslation } from "react-i18next";
-import { FlexGrid } from "../../molecules/FlexGrid";
-import { InPageLink } from "../../molecules/InPageLink";
-import { SectionTitle } from "../../molecules/SectionTitle";
-import { ProjectCard, ProjectCardProps } from "../../organisms/ProjectCard";
+import { FlexGrid } from "../../molecules/flexGrid";
+import { InPageLink } from "../../molecules/inPageLink";
+import { SectionTitle } from "../../molecules/sectionTitle";
+import { ProjectCard, ProjectCardProps } from "../../organisms/projectCard";
 
 export const Projects = () => {
   const theme = useTheme();

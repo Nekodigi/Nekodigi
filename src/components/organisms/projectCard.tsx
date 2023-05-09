@@ -1,8 +1,9 @@
 /** @jsxImportSource @emotion/react */
 
 import { Typography, Box, useTheme } from "@mui/material";
-import { FlexItem } from "../molecules/FlexItem";
+import { FlexItem } from "../molecules/flexItem";
 import { fontFamilies, fontSizes } from "../styles/fonts";
+
 
 //https://cdn.image.st-hatena.com/image/scale/1c16276692b8a1ab7352a702c9e1ccf1112fc3b6/backend=imager;height=500;quality=80;version=1;width=500/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2FN%2FNekodigi%2F20221213%2F20221213092155.png
 export type ProjectCardProps = {
@@ -16,7 +17,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
   const theme = useTheme();
   return (
     <FlexItem url={url}>
-      <img src={image} width="100%" style={{ borderRadius: 8 }}></img>
+      <Box width="100%" style={{ borderRadius: 8, aspectRatio: 16/9, backgroundSize: "cover", backgroundImage: `url(${image})` }}></Box>
       <Box
         display="flex"
         flexDirection="column"

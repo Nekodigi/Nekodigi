@@ -1,12 +1,12 @@
 import { Box, Container, useTheme } from "@mui/material";
 import { useTranslation } from "react-i18next";
-import { FlexGrid } from "../../molecules/FlexGrid";
-import { InPageLink } from "../../molecules/InPageLink";
-import { SectionTitle } from "../../molecules/SectionTitle";
+import { FlexGrid } from "../../molecules/flexGrid";
+import { InPageLink } from "../../molecules/inPageLink";
+import { SectionTitle } from "../../molecules/sectionTitle";
 import {
   GradationCard,
   GradationCardProps,
-} from "../../organisms/GradiationCard";
+} from "../../organisms/gradiationCard";
 
 export const SocialMedia = () => {
   const theme = useTheme();

@@ -2,7 +2,7 @@
 
 import { Box } from "@mui/material";
 import { useMemo } from "react";
-import { Circle } from "../atoms/Circle";
+import { Circle } from "../atoms/circle";
 
 type ShapesBackgroundProps = {
   width: number;

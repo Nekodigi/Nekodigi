@@ -2,9 +2,9 @@ import { useTheme } from "@mui/material";
 import { Box, Container } from "@mui/material";
 
 import { useTranslation } from "next-i18next";
-import { Waves } from "../../atoms/Waves";
+import { Waves } from "../../atoms/waves";
 
-import { SectionTitle } from "../../molecules/SectionTitle";
+import { SectionTitle } from "../../molecules/sectionTitle";
 
 export const Intro = () => {
   const theme = useTheme();

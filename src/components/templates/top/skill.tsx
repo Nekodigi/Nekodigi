@@ -1,7 +1,7 @@
 import { Box, Container, useTheme } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import { IconBadge } from "../../molecules/IconBadge";
-import { SectionTitle } from "../../molecules/SectionTitle";
+import { SectionTitle } from "../../molecules/sectionTitle";
 
 export const Skill = () => {
   const theme = useTheme();
