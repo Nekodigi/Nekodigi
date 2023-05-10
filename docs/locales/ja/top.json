@@ -16,7 +16,7 @@
       {
         "title": "Pinyin OCR",
         "body": "中国語のピンインをワンクリックで表示する拡張機能。画像からの文字読み取りも翻訳もこれ一つで。",
-        "url": "https://artifact.nekodigi.com/",
+        "url": "https://chrome.google.com/webstore/detail/pinyin-ocr/pnaenhlejhkoamfjgcfmkpjekpodohga",
         "image": "/images/jp/top/PinyinOCR.png"
       },
       {
@@ -27,18 +27,18 @@
       },{
         "title": "Webマークシート",
         "body": "印刷不要のマークシートでTOEIC対策をより効率的に！現役学生の悩みから生まれたWebアプリ。",
-        "url": "https://foodbankbotdev.web.app/archive/all/1",
+        "url": "https://webans.nekodigi.com/",
         "image": "/images/jp/top/WebAnswerSheet.png"
       },{
         "title": "Chat Blog",
         "body": "LINE Botから投稿できるWebサイト。IT初心者でも簡単に情報発信。",
-        "url": "https://artifact.nekodigi.com/",
+        "url": "https://foodbankbotdev.web.app/",
         "image": "/images/jp/top/ChatBlog.png"
       },
       {
         "title": "LINE GPT",
         "body": "ChatGPTをLINEで使える。命令を自分で追加できる開発者にもおすすめのサービス。",
-        "url": "https://bushub-d4562.web.app/",
+        "url": "https://lin.ee/TRJzQJp",
         "image": "/images/jp/top/LineGPT.png"
       }
     ]
