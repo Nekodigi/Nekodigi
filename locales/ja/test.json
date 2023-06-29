@@ -1,0 +1,103 @@
+{
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "body": "Nekodigi has established the following privacy policy to ensure that our customers can use our services with confidence.",
+    "terms": [
+      {
+        "title": "Use of personal information",
+        "body": "Nekodigi provides a variety of services, hereinafter referred to as \"the services\". The services may ask you to enter personal information such as your name and e-mail address when you contact us, create an account, or post content.\nThe personal information obtained will be used to identify your working data and to contact you by e-mail with answers to your inquiries and necessary information, and we will contact you in advance if we intend to use the information for any other purpose than these."
+      },
+      {
+        "title": "About Advertisements",
+        "body": "The services uses third-party website advertising services (Google AdSense) and smartphone application advertising services (Google AdMob, Unity Ads). These services use cookies to display advertisements for products and services that match the interests of users.\nFor more information about the personal information handled by advertising service providers and how to disable ad delivery, please visit their Web sites.",
+        "urls": [
+          {
+            "alt": "Google ",
+            "url": "https://policies.google.com/technologies/ads"
+          },
+          { "alt": "Unity", "url": "https://unity.com/legal/privacy-policy" }
+        ]
+      },
+      {
+        "title": "About Access Analysis Tools",
+        "body": "The services uses Google Analytics, which uses cookies to collect traffic data. Traffic data is collected anonymously and does not identify any individual."
+      },
+      {
+        "title": "Correction of Personal Information",
+        "body": "If you wish to correct or delete your personal information, please contact us at the following address. We will respond to your request after confirming your identity.",
+        "urls": [
+          {
+            "alt": "Personal Information Correction Form",
+            "url": "https://forms.gle/h4R2Vwv8edFfjzXSA"
+          },
+          {
+            "alt": "Contact Form",
+            "url": "https://forms.gle/e6bvEMAkwpLnYuaR9"
+          }
+        ]
+      },
+      {
+        "title": "Privacy Policy Changes",
+        "body": "This Privacy Policy is subject to change without notice due to changes in laws, regulations, and systems. Please refer to the latest Privacy Policy."
+      }
+    ]
+  },
+  "commercialLaw": {
+    "title": "Notation Based on the Specified Commercial Transactions Act",
+    "body": "Notation Based on the Specified Commercial Transactions Act",
+    "terms": [
+      {
+        "title": "Name",
+        "body": "Kazuhiro Uetsuhara"
+      },
+      {
+        "title": "Representative Name",
+        "body": "Kazuhiro Uetsuhara"
+      },
+      {
+        "title": "Location",
+        "body": "6-10-17 Musehouse 101, Minamimachi, Yanai City, Yamaguchi Prefecture"
+      },
+      {
+        "title": "E-mail Address",
+        "body": "ndeji69@gmail.com"
+      },
+      {
+        "title": "Website",
+        "body": "https://nekodigi.com"
+      },
+      {
+        "title": "Phone Number",
+        "body": "70-8490-5396"
+      },
+      {
+        "title": "Sales Price",
+        "body": "As stated on the product page"
+      },
+      {
+        "title": "Costs other than price of goods",
+        "body": "None"
+      },
+      {
+        "title": "Payment Methods",
+        "body": "Payment can be made using credit cards, Google Pay, and Apple Pay."
+      },
+      {
+        "title": "Delivery Time",
+        "body": "The service becomes available once the contract button is pressed and the payment is confirmed."
+      },
+      {
+        "title": "Payment Time",
+        "body": "Payment is made at the time of subscribing to the plan and when the plan is renewed."
+      },
+      {
+        "title": "Refund Policy",
+        "body": "In case of malfunctions in the service, a refund of the plan fee will be provided based on the duration of the malfunction. If there is an excessive loss of items or tokens due to a malfunction, a refund for the lost items will be provided."
+      },
+      {
+        "title": "Software Operating Environment (Recommended)",
+        "body": "To ensure smooth use of the service, it is recommended to use the following environments. To avoid any post-purchase issues, we recommend performing a test operation using the free version beforehand.\n\n ・Windows 10 or later\n・MacOS\n・Android 5.1 or later\n・Google Chrome (Latest)"
+      }
+    ]
+  }
+}
