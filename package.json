@@ -9,7 +9,8 @@
     "export": "next build && next export -o docs",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "yarn export && gh-pages -d docs"
+    "deploy": "yarn export && gh-pages -d docs ",
+    "gh": "gh-pages -d docs -dotfiles true"
   },
   "dependencies": {
     "@emotion/react": "^11.11.0",

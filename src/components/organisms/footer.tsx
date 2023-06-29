@@ -18,7 +18,7 @@ import { MdArticle } from "react-icons/md";
 
 export const Footer = () => {
   const theme = useTheme();
-  const { t } = useTranslation();
+  const { t, ready } = useTranslation();
 
   type CategoryProps = {
     name: string;
@@ -40,7 +40,7 @@ export const Footer = () => {
     );
   };
 
-  return (
+  return ready ? (
     <div>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
@@ -146,7 +146,7 @@ export const Footer = () => {
         </Container>
       </AppBar>
     </div>
-  );
+  ) : undefined;
 };
 
 import { Button } from "@mui/material";
