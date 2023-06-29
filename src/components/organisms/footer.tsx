@@ -8,15 +8,38 @@ import {
   Toolbar,
   useTheme,
   Typography,
+  Stack,
 } from "@mui/material";
 import { Nekodigi } from "../molecules/Nekodigi";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { ThemeContext } from "../../contexts/theme";
 import { FaGithub, FaYoutube, FaGooglePlay } from "react-icons/fa";
 import { MdArticle } from "react-icons/md";
 
 export const Footer = () => {
   const theme = useTheme();
+  const { t } = useTranslation();
+
+  type CategoryProps = {
+    name: string;
+    items: UrlProps[];
+  };
+  const grayLink = [
+    fontFamilies.Jp,
+    fontSizes.px14,
+    {
+      color: theme.palette.local.gray,
+      fontWeight: 500,
+    },
+  ];
+  const grayLinkNorm = (href: string, text: string) => {
+    return (
+      <Link href={href} underline="none">
+        <Typography css={grayLink}>{text}</Typography>
+      </Link>
+    );
+  };
+
   return (
     <div>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,34 +58,77 @@ export const Footer = () => {
         <Container>
           <Toolbar
             sx={{
-              py: 1.75,
+              py: 2,
+
               px: 2,
               color: theme.palette.local.black,
 
               borderTop: `1px solid`,
               borderColor: theme.palette.local.whiteDark,
+              [theme.breakpoints.down("md")]: {
+                flexDirection: "column",
+                alignItem: "flex-start",
+              },
             }}
           >
-            <Nekodigi useLogo={false} />
-            <Box flexGrow={1}></Box>
-            <Box
-              position="absolute"
-              left={0}
-              right={0}
-              mx="auto"
-              width="fit-content"
+            <Stack
+              direction="row"
+              gap={16}
+              sx={{
+                [theme.breakpoints.down("sm")]: {
+                  flexDirection: "column",
+                  width: "100%",
+                },
+                pb: 8,
+              }}
             >
-              <Link href="/terms/privacy" underline="none">
-                <Typography
-                  css={[fontFamilies.Jp, fontSizes.px12]}
-                  color={theme.palette.local.gray}
-                  fontWeight={400}
-                >
-                  Privacy Policy
-                </Typography>
-              </Link>
-            </Box>
-            <Box sx={{ display: { xs: "none", sm: "flex" } }} gap={2}>
+              <Stack gap={2}>
+                <Nekodigi useLogo={true} />
+                <Stack ml={2} gap={2}>
+                  {(
+                    t("footer.languages", {
+                      returnObjects: true,
+                    }) as LangProps[]
+                  ).map((lang) => (
+                    <LanguageSwitchLink locale={lang.abbr}>
+                      <Typography css={grayLink}>{lang.name}</Typography>
+                    </LanguageSwitchLink>
+                  ))}
+                </Stack>
+              </Stack>
+              <Stack
+                direction="row"
+                gap={8}
+                sx={{
+                  [theme.breakpoints.down("sm")]: { flexDirection: "column" },
+                }}
+              >
+                {(
+                  t("footer.category", {
+                    returnObjects: true,
+                  }) as CategoryProps[]
+                ).map((category) => (
+                  <Stack gap={2} sx={{ width: { xs: "100%", sm: 128 } }}>
+                    <Typography
+                      css={[
+                        fontFamilies.Jp,
+                        fontSizes.px14,
+                        { fontWeight: 700 },
+                      ]}
+                    >
+                      {category.name}
+                    </Typography>
+                    {category.items.map((item) =>
+                      grayLinkNorm(item.url, item.alt)
+                    )}
+                  </Stack>
+                ))}
+              </Stack>
+            </Stack>
+
+            <Box flexGrow={1}></Box>
+
+            <Box sx={{ display: { sm: "flex" }, pb: 8 }} gap={2}>
               <IconButton href="https://github.com/Nekodigi">
                 <FaGithub color={theme.palette.local.black} />
               </IconButton>
@@ -90,6 +156,9 @@ import TextField from "@mui/material/TextField";
 import { fontFamilies, fontSizes } from "../styles/fonts";
 import CssBaseline from "@mui/material/CssBaseline/CssBaseline";
 import Link from "../atoms/Link";
+import LanguageSwitchLink from "../atoms/LanguageSwitchLink";
+import { useTranslation } from "react-i18next";
+import { makeStaticProps, getStaticPaths } from "../../utils/i18n/getStatic";
 
 type TextButtonProps = {
   label: string;

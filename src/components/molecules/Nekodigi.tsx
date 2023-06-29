@@ -30,8 +30,8 @@ export const Nekodigi = (props: NekodigiProps) => {
               left: 27,
               top: 10,
               fontSize: 16,
-              fontWeight: 500,
-              fontFamily: "Roboto",
+              fontWeight: 700,
+              fontFamily: "Roboto, sans-serif",
               lineHeight: "19px",
               color: theme.palette.local.black,
             }}
@@ -47,8 +47,8 @@ export const Nekodigi = (props: NekodigiProps) => {
               top: 7,
               left: 7,
               fontSize: 16,
-              fontWeight: 500,
-              fontFamily: "Roboto",
+              fontWeight: 700,
+              fontFamily: "Roboto, sans-serif",
               lineHeight: "19px",
               color: theme.palette.local.black,
             }}

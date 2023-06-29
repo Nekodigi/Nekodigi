@@ -1,0 +1,34 @@
+{
+  "footer": {
+    "languages": [
+      { "abbr": "en", "name": "English" },
+      { "abbr": "ja", "name": "日本語" }
+    ],
+    "category": [
+      {
+        "name": "サービス",
+        "items": [
+          {
+            "alt": "Creative Magic",
+            "url": "https://play.google.com/store/apps/details?id=com.Nekodigi.CreativeMagic"
+          },
+          { "alt": "Webマークシート", "url": "https://webans.nekodigi.com/" },
+          { "alt": "聖遺物Sim", "url": "https://artifact.nekodigi.com/" }
+        ]
+      },
+      {
+        "name": "Legal",
+        "items": [
+          {
+            "alt": "プライバシーポリシー",
+            "url": "/terms/privacy"
+          },
+          {
+            "alt": "特定商取引法に基づく表記",
+            "url": "/terms/commercial-law"
+          }
+        ]
+      }
+    ]
+  }
+}

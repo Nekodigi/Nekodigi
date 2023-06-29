@@ -8,24 +8,24 @@ import { InPageLink } from "../../molecules/inPageLink";
 import { SectionTitle, SectionTitleProps } from "../../molecules/sectionTitle";
 import { fontFamilies, fontSizes } from "../../styles/fonts";
 
-export const Privacy = () => {
+export const CommercialLaw = () => {
   const { t } = useTranslation("terms");
 
+  type UrlProps = {
+    alt: string;
+    url: string;
+  };
   type TermsProps = SectionTitleProps & {
     urls?: UrlProps[];
   };
-  const terms: TermsProps[] = t("privacyPolicy.terms", {
+  const terms: TermsProps[] = t("commercialLaw.terms", {
     returnObjects: true,
   });
 
   return (
-    <InPageLink id="PrivacyPolicy">
+    <InPageLink id="commercialLaw">
       <Container sx={{ pt: 2, mb: 40 }}>
-        <SectionTitle
-          title={t("privacyPolicy.title")!}
-          body={t("privacyPolicy.body")!}
-          sxBox={{ mb: 6 }}
-        />
+        <SectionTitle title={t("commercialLaw.title")!} sxBox={{ mb: 6 }} />
         {terms.map((term, i) => (
           <Box display="flex" flexDirection="column" gap={1} m={2} mb={4}>
             <Typography
@@ -46,6 +46,7 @@ export const Privacy = () => {
                   {url.alt}
                 </Link>
               ))}
+
             {/* <SectionTitle key={i} subTitle={term.title} body={term.body} /> */}
           </Box>
         ))}

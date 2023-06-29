@@ -40,5 +40,5 @@ export default function Home() {
   );
 }
 
-const getStaticProps = makeStaticProps(["top"]);
+const getStaticProps = makeStaticProps(["top", "common"]);
 export { getStaticPaths, getStaticProps };

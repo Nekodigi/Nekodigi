@@ -26,7 +26,11 @@ const LanguageSwitchLink = (props: LanguageSwitchLinkProps) => {
   }
 
   return (
-    <Link onClick={() => languageDetector.cache!(locale)} href={href}>
+    <Link
+      onClick={() => languageDetector.cache!(locale)}
+      sx={{ textDecoration: "none" }}
+      href={href}
+    >
       {children}
     </Link>
   );
