@@ -9,7 +9,7 @@
     "export": "next build && next export -o docs",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && next export && gh-pages -d build"
+    "deploy": "yarn export && gh-pages -d docs"
   },
   "dependencies": {
     "@emotion/react": "^11.11.0",
@@ -33,6 +33,7 @@
     "react-dom": "18.2.0",
     "react-i18next": "^12.1.1",
     "react-icons": "^4.7.1",
+    "react-scripts": "^5.0.1",
     "typescript": "5.1.5"
   },
   "browser": {
