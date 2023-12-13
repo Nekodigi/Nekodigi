@@ -60,14 +60,24 @@
         "url": "https://github.com/Nekodigi"
       },
       {
-        "title": "Blog (JP)",
+        "title": "Blog",
         "body": "A wide range of behind the scenes of development and other interests.",
-        "url": "https://nekodigi.hatenablog.com/archive"
+        "url": "https://nekodigi-hatenablog-com.translate.goog/archive?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp"
       },
       {
         "title": "Google Play",
         "body": "Works that focus on interactive experiences that cannot be experienced in videos.",
         "url": "https://play.google.com/store/apps/dev?id=8989861170574890555"
+      },
+      {
+        "title": "Linkedin",
+        "body": "A place to share my career and skills. I'm looking for a oversea job!",
+        "url": "https://www.linkedin.com/in/kazuhiro-uetsuhara-536667202/"
+      },
+      {
+        "title": "Facebook",
+        "body": "Join our activities and get the latest information.",
+        "url": "https://www.facebook.com/profile.php?id=100049529651401"
       }
     ]
   },
@@ -77,6 +87,6 @@
   },
   "contact": {
     "title": "Contact",
-    "body": "Use youtube comments for faster reply. Twitter and email are also available.\n I'd love to hear your thoughts on the app and any ideas for future products you'd like me to make!"
+    "body": "Use youtube comments for faster reply. Email and facebook are also available.\n I'd love to hear your thoughts on the app and any ideas for future products you'd like me to make!\nEmail:ndeji69@gmail.com"
   }
 }

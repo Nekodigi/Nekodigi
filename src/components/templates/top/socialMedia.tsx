@@ -16,7 +16,9 @@ export const SocialMedia = () => {
     "linear-gradient(117.75deg, #FF0000 16.15%, #FFB199 87.96%);",
     "linear-gradient(117.75deg, #CC208E 16.15%, #6713D2 87.96%);",
     "linear-gradient(108.57deg, #4481EB 23.52%, #04BEFE 71.41%);",
-    "linear-gradient(117.75deg, #9BE15D 16.15%, #00E3AE 87.96%);",
+    "linear-gradient(117.75deg, #0BA360 16.15%, #3CBA92 87.96%);",
+    "linear-gradient(117.75deg, #6A11AB 16.15%, #2575FC 87.96%);",
+    "linear-gradient(117.75deg, #C471F5 16.15%, #FA71CD 87.96%);",
   ];
 
   const socialMedias: GradationCardProps[] = t("socialMedia.socialMedias", {
@@ -42,7 +44,7 @@ export const SocialMedia = () => {
               title={socialMedia.title}
               body={socialMedia.body}
               url={socialMedia.url}
-              color={colors[i % 4]}
+              color={colors[i % 6]}
             />
           ))}
         </FlexGrid>

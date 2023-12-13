@@ -66,6 +66,16 @@
         "title": "Google Play",
         "body": "動画では味わえないインタラクティブな体験にこだわった作品。",
         "url": "https://play.google.com/store/apps/dev?id=8989861170574890555"
+      },
+      {
+        "title": "Linkedin",
+        "body": "プロフィールや経歴を確認できます。",
+        "url": "https://www.linkedin.com/in/kazuhiro-uetsuhara-536667202/"
+      },
+      {
+        "title": "Facebook",
+        "body": "友達申請はお気軽にどうぞ！",
+        "url": "https://www.facebook.com/profile.php?id=100049529651401"
       }
     ]
   },
@@ -75,6 +85,6 @@
   },
   "contact": {
     "title": "Contact",
-    "body": "Youtubeのコメントで連絡していただくと早く回答が得られます。Twitter、Emailを通しての連絡も可能です。\nアプリを使ってみた感想、今後作って欲しい物のアイデアなどお待ちしております！"
+    "body": "Youtubeのコメントで連絡していただくと早く回答が得られます。Facebook、Emailを通しての連絡も可能です。\nアプリを使ってみた感想、今後作って欲しい物のアイデアなどお待ちしております！\nEmail:ndeji69@gmail.com"
   }
 }
