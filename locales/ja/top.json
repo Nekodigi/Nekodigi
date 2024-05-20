@@ -24,12 +24,14 @@
         "body": "ありそうでなかった聖遺物の最終スコアを予測するアプリ。原神をもっと快適に。",
         "url": "https://artifact.nekodigi.com/",
         "image": "/images/jp/top/ArtifactSim.png"
-      },{
+      },
+      {
         "title": "Webマークシート",
         "body": "印刷不要のマークシートでTOEIC対策をより効率的に！現役学生の悩みから生まれたWebアプリ。",
         "url": "https://webans.nekodigi.com/",
         "image": "/images/jp/top/WebAnswerSheet.png"
-      },{
+      },
+      {
         "title": "Chat Blog",
         "body": "LINE Botから投稿できるWebサイト。IT初心者でも簡単に情報発信。",
         "url": "https://foodbankbotdev.web.app/",
@@ -66,6 +68,16 @@
         "title": "Google Play",
         "body": "動画では味わえないインタラクティブな体験にこだわった作品。",
         "url": "https://play.google.com/store/apps/dev?id=8989861170574890555"
+      },
+      {
+        "title": "Linkedin",
+        "body": "プロフィールや経歴を確認できます。",
+        "url": "https://www.linkedin.com/in/kazuhiro-uetsuhara-536667202/"
+      },
+      {
+        "title": "Facebook",
+        "body": "友達申請はお気軽にどうぞ！",
+        "url": "https://www.facebook.com/profile.php?id=100049529651401"
       }
     ]
   },
@@ -75,6 +87,6 @@
   },
   "contact": {
     "title": "Contact",
-    "body": "Youtubeのコメントで連絡していただくと早く回答が得られます。Twitter、Emailを通しての連絡も可能です。\nアプリを使ってみた感想、今後作って欲しい物のアイデアなどお待ちしております！"
+    "body": "Linkedin,、Email、Facebook、Youtubeコメントを通じての連絡が可能です。\nアプリを使ってみた感想、今後作って欲しい物のアイデアなどお待ちしております！\nEmail:ndeji69@gmail.com"
   }
 }
