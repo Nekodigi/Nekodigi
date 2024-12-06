@@ -13,7 +13,6 @@ export default function Home() {
       <Head>
         <title>Nekodigi Portfolio</title>
         <meta name="description" content="Programmer / Designer / Student" />
-        <link rel="icon" href="favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -32,8 +31,9 @@ export default function Home() {
       </Head>
 
       <Intro />
-      <Projects />
       <SocialMedia />
+      <Projects />
+
       <Skill />
       <Contact />
     </div>

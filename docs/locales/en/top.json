@@ -8,6 +8,12 @@
     "body": "Here's an app you can try right now!\nIf you want to see all my work, please visit my Youtube or blog.",
     "projects": [
       {
+        "title": "Mapman",
+        "body": "Created by a travel enthusiast who wasn't satisfied with Google Maps. Conquer all your destinations!",
+        "url": "https://mapman-frontend.vercel.app/map",
+        "image": "/images/en/top/Mapman.png"
+      },
+      {
         "title": "Creative Magic",
         "body": "The culmination of three years of learning generative art. High-quality art on your smartphone too.",
         "url": "https://play.google.com/store/apps/details?id=com.Nekodigi.CreativeMagic",
@@ -25,17 +31,12 @@
         "url": "https://artifact.nekodigi.com/",
         "image": "/images/en/top/ArtifactSim.png"
       },
+
       {
-        "title": "Web Answer Sheet",
-        "body": "Efficient TOEIC preparation with a paperless answer sheet! A web app born from the struggles of active students.",
-        "url": "https://webans.nekodigi.com/",
-        "image": "/images/en/top/WebAnswerSheet.png"
-      },
-      {
-        "title": "Chat Blog",
-        "body": "A website where you can post from a LINE Bot. Easily share information even for IT beginners.",
-        "url": "https://foodbankbotdev.web.app/",
-        "image": "/images/en/top/ChatBlog.png"
+        "title": "Thanks website",
+        "body": "Post your feedback from your smartphone just like chatting. Updating your website daily has never been easier.",
+        "url": "https://thankyou.fbyamaguchi.org/",
+        "image": "/images/en/top/ThanksWeb.png"
       },
       {
         "title": "LINE GPT",
