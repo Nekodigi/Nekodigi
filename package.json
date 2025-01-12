@@ -9,7 +9,7 @@
     "export": "next build && next export -o docs",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "yarn export && gh-pages -d docs --dotfiles",
+    "deploy": "yarn export && gh-pages -d docs --dotfiles -r https://github.com/Nekodigi/Nekodigi",
     "gh": "gh-pages -d docs -dotfiles true"
   },
   "dependencies": {
