@@ -5,6 +5,7 @@ import { Projects } from "../../components/templates/top/projects";
 import { Skill } from "../../components/templates/top/skill";
 import { SocialMedia } from "../../components/templates/top/socialMedia";
 import { getStaticPaths, makeStaticProps } from "../../utils/i18n/getStatic";
+import { Experience } from "../../components/templates/top/experience";
 
 export default function Home() {
   return (
@@ -33,7 +34,7 @@ export default function Home() {
       <Intro />
       <SocialMedia />
       <Projects />
-
+      <Experience />
       <Skill />
       <Contact />
     </div>
