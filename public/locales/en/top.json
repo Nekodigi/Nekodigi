@@ -8,6 +8,12 @@
     "body": "Here's an app you can try right now!\nIf you want to see all my work, please visit my Youtube or blog.",
     "projects": [
       {
+        "title": "Generative Arts",
+        "body": "Over 250 interactive artworks generated with code (Unity, ShaderToy, Processing).",
+        "url": "https://youtube.com/c/Nekodigi",
+        "image": "/images/jp/top/Fluid.png"
+      },
+      {
         "title": "Mapman",
         "body": "Created by a travel enthusiast who wasn't satisfied with Google Maps. Conquer all your destinations!",
         "url": "https://mapman-frontend.vercel.app/map",
@@ -18,12 +24,6 @@
         "body": "The culmination of three years of learning generative art. High-quality art on your smartphone too.",
         "url": "https://play.google.com/store/apps/details?id=com.Nekodigi.CreativeMagic",
         "image": "/images/en/top/CreativeMagic.png"
-      },
-      {
-        "title": "Pinyin OCR",
-        "body": "An extension that displays Chinese Pinyin with just one click. One tool for both character recognition from images and translation.",
-        "url": "https://chrome.google.com/webstore/detail/pinyin-ocr/pnaenhlejhkoamfjgcfmkpjekpodohga",
-        "image": "/images/en/top/PinyinOCR.png"
       },
       {
         "title": "Artifact Sim",

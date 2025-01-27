@@ -8,10 +8,10 @@
     "body": "すぐに試せるアプリを紹介します！\nすべての作品が見たい方はブログやYoutubeからご覧ください。",
     "projects": [
       {
-        "title": "Mapman",
-        "body": "Google Mapを使い倒した旅の効率廚が作った、行きたいところ全部制覇を可能にするアプリ。",
-        "url": "https://mapman-frontend.vercel.app/map",
-        "image": "/images/jp/top/Mapman.png"
+        "title": "Generative Arts",
+        "body": "Unity,Processing,ShaderToyなどを使ったコードで生成された動かせるアートを250本以上公開",
+        "url": "https://youtube.com/c/Nekodigi",
+        "image": "/images/jp/top/Fluid.png"
       },
       {
         "title": "Creative Magic",
@@ -20,10 +20,10 @@
         "image": "/images/jp/top/CreativeMagic.png"
       },
       {
-        "title": "Pinyin OCR",
-        "body": "中国語のピンインをワンクリックで表示する拡張機能。画像からの文字読み取りも翻訳もこれ一つで。",
-        "url": "https://chrome.google.com/webstore/detail/pinyin-ocr/pnaenhlejhkoamfjgcfmkpjekpodohga",
-        "image": "/images/jp/top/PinyinOCR.png"
+        "title": "Mapman",
+        "body": "Google Mapを使い倒した旅の効率廚が作った、行きたいところ全部制覇を可能にするアプリ。",
+        "url": "https://mapman-frontend.vercel.app/map",
+        "image": "/images/jp/top/Mapman.png"
       },
       {
         "title": "聖遺物Sim",
